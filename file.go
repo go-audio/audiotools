@@ -26,6 +26,12 @@ var (
 	Wav Format = "wav"
 	// Aiff is the Audio Interchange File Format
 	Aiff Format = "aiff"
+	// VideoMP4 is the video mp4 format
+	VideoMP4 Format = "video/mp4"
+	// Mp3 is the audio mpeg/3 format
+	Mp3 Format = "mp3"
+	// MIDI is the MIDI format
+	MIDI Format = "midi"
 )
 
 // FileFormat returns the known format of the passed path.
