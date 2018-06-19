@@ -3,7 +3,9 @@ go:
  - 1.7.6
  - 1.8.4
  - 1.9.1
+ - 1.10
 sudo: false
 install:
   - go get -u github.com/go-audio/audio
   - go get -u github.com/go-audio/wav
+  - go get -u github.com/go-audio/aiff
