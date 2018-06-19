@@ -1,9 +1,8 @@
 language: go
 go:
- - 1.7.6
- - 1.8.4
- - 1.9.1
- - 1.10
+ - "1.8.x"
+ - "1.9.x"
+ - "1.10.x"
 sudo: false
 install:
   - go get -u github.com/go-audio/audio
