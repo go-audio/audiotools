@@ -28,6 +28,10 @@ var (
 	Aiff Format = "aiff"
 	// VideoMP4 is the video mp4 format
 	VideoMP4 Format = "video/mp4"
+	// VideoAvi is the video avi format
+	VideoAvi Format = "video/avi"
+	// VideoWebm is the video webm format
+	VideoWebm Format = "video/webm"
 	// Mp3 is the audio mpeg/3 format
 	Mp3 Format = "mp3"
 	// MIDI is the MIDI format
