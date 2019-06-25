@@ -16,6 +16,8 @@ func TestFileFormat(t *testing.T) {
 	}{
 		{name: "wav", path: "../wav/fixtures/bass.wav", want: audiotools.Wav},
 		{name: "aiff", path: "../aiff/fixtures/kick.aif", want: audiotools.Aiff},
+		// Venture beyone supported decoder formats
+		{name: "avi", path: "../wav/fixtures/sample.avi", want: audiotools.Unknown},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
